@@ -1,12 +1,12 @@
 body{
     padding:0;
     margin:0;
-    color:white;
+    color:black;
     font-size:12px;
 }
 
-header {
-    background-image:url(img/profil.png);
+header, footer{
+    background-image:url(../img/bg_waves.png);
     padding:10px;
     width:100%;
 }
@@ -14,7 +14,7 @@ header {
 main{
     width:90%;
     margin:auto;
-    color:white;
+    color:black;
 }
 
 p{
@@ -42,7 +42,7 @@ header .image img{
 
 ul li{
     list-style-type:none;
-    color:white;
+    color:darkslategray;
 }
 
 .colonne{
@@ -63,12 +63,6 @@ footer p{
     vertical-align:top;
     box-sizing:border-box;
     margin-left:30px;
-}
-
-iframe{
-    display:inline-block;
-    vertical-align:top;
-    box-sizing:border-box;
 }
 
 #info {
@@ -135,7 +129,7 @@ iframe{
     
     #filters li span.active {
         background: #e95a44;
-        color:#fff;
+        color:#f0ad4e;
     }
  
 
@@ -180,7 +174,7 @@ iframe{
         }
     
         .portfolio .label-text {
-            color:#fff;
+            color:#f0ad4e;
             position: relative;
             z-index:500;
             padding:5px 8px;
@@ -191,7 +185,9 @@ iframe{
                 font-size:9px;
             }
     
-    
+    .navbar-inverse{
+        background-image:url(../img/bg_waves.png);
+    }
     
 
 
