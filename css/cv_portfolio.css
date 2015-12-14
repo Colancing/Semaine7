@@ -23,9 +23,8 @@ p{
     text-align:justify;
 }
 a {
-    color:#3E3C3F;
+    color:#ddf2ab;}
 
-}
 .conteneur{
     margin:15px;
     padding:10px;
@@ -60,6 +59,7 @@ ul li{
 footer{
     bottom:0;
     margin-top:50px;
+    margin-bottom:5px;
 }
 
 footer p{
@@ -70,7 +70,9 @@ footer p{
     box-sizing:border-box;
     margin-left:30px;
 }
-
+footer a {
+    color:#3E3C3F
+}
 #info {
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
